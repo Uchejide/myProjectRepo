@@ -1,0 +1,614 @@
+body {
+  font-family: "Encode Sans Condensed", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  /* padding: 0.5rem; */
+  background-color: #000;
+  padding-left: 40px;
+  position: fixed;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  border-bottom: #333;
+
+  p {
+    color: white;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    border-right: 1px solid #333;
+    padding: 1rem;
+  }
+
+  .navbar-btn a:hover {
+    background-color: blue;
+  }
+
+  .push-right {
+    margin-left: auto;
+    margin-right: 40px;
+    padding-left: 700px;
+    border-left: 1px solid #333;
+  }
+}
+
+.hero-section {
+  background-image: url(/Figma/Header\ section.png);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 5%;
+  padding-left: 3%;
+  padding-top: 3%;
+  font-size: 65px;
+  color: #ffffff;
+  h1 {
+    padding-bottom: 15%;
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+}
+
+button {
+  height: 48px;
+  width: 158px;
+  background-color: #d0fbf9;
+  color: #000;
+  border: #d0fbf9;
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-size: medium;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  a:hover {
+    color: white;
+    background-color: #f10bda;
+    padding: 10px;
+  }
+}
+.frame {
+  background-color: blue;
+}
+.promobar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  animation: scroll-left 30s linear infinite;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.vision-mod {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #333;
+  div {
+    aspect-ratio: 1/1;
+    padding-left: 40px;
+    background-color: white;
+  }
+}
+
+.vision {
+  background-image: url(/Figma/Title\ container2.png);
+  background-size: cover;
+  h2 {
+    color: white;
+    font-size: 90px;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+}
+
+.about-us,
+.our-classes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 150px;
+}
+
+.classes-mod {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #333;
+  div {
+    aspect-ratio: 1/1;
+    padding-left: 40px;
+    background-color: white;
+  }
+}
+
+.classes {
+  background-image: url(/Figma/Title\ container.png);
+  background-size: cover;
+  h2 {
+    color: white;
+    font-size: 90px;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+}
+
+.founders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 700px;
+}
+
+.our-founders {
+  padding-left: 40px;
+  padding-top: 15%;
+  h2 {
+    font-weight: 600;
+  }
+  .quote {
+    padding-top: 30%;
+  }
+  .f1quote {
+    font-size: 20px;
+  }
+  .f1name {
+    font-size: small;
+  }
+}
+
+.founders-cards {
+  display: grid;
+  height: auto;
+  grid-template-rows: 3fr auto 3fr auto;
+  .founders-card-1 {
+    background-image: url(/Figma/Founder\ image1.png);
+    background-size: cover;
+  }
+  .founders-card-1-detail {
+    background-color: #d900ff;
+    padding-left: 30px;
+  }
+  .founders-card-2 {
+    background-image: url(/Figma/Founder\ image2.png);
+    background-size: cover;
+  }
+  .founders-card-2-detail {
+    background-color: #d0fbf9;
+    padding-left: 30px;
+  }
+  .f1name {
+    margin-top: -15px;
+    font-size: small;
+  }
+  .fname {
+    font-weight: 700;
+  }
+}
+
+.call-to-action {
+  background-color: blue;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  p {
+    color: white;
+    font-size: 30px;
+  }
+}
+
+.footer {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  .footer-content {
+    background-color: #d0fbf9;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 300px;
+    h2 {
+      font-size: 150px;
+      font-weight: 500;
+      line-height: 130px;
+      padding-left: 40px;
+      margin-top: 20px;
+    }
+    p {
+      padding: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    a {
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .socials {
+      background-color: blue;
+      a {
+        color: white;
+        font-weight: 600;
+        padding-left: 40px;
+      }
+    }
+    .email {
+      background-color: black;
+      a {
+        color: white;
+        font-weight: 600;
+        padding-left: 40px;
+      }
+    }
+    .book {
+      background-color: #d900ff;
+      a {
+        color: #000;
+        font-weight: 600;
+        padding-left: 40px;
+      }
+    }
+  }
+}
+
+/* for classes page */
+.hero {
+  background-image: url(/Figma/Classes\ Header\ section.png);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 5%;
+  padding-left: 3%;
+  padding-top: 3%;
+  font-size: 65px;
+  color: #fff;
+  height: 650px;
+  h1 {
+    padding-bottom: 15%;
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+}
+
+.booking-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-bottom: 1px solid #333;
+  height: 1440px;
+  .title {
+    background-color: #000;
+    h2 {
+      color: #fff;
+      padding-left: 40px;
+      padding-top: 30px;
+      font-weight: 500;
+      font-size: 40px;
+    }
+  }
+  .cards {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    .row-1,
+    .row-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .card-c1,
+    .card-c2,
+    .card-c4,
+    .card-d5 {
+      display: grid;
+      grid-template-rows: 2fr 1fr;
+      height: 480px;
+      border-bottom: 1px solid #333;
+    }
+  }
+}
+
+/* General Card styles */
+.card-info {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  background-color: #fff;
+  border-bottom: 1px solid #333;
+  border-right: 1px solid #333;
+  height: 148px;
+  h4,
+  p {
+    padding-left: 40px;
+  }
+  .card-intro h4 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .card-intro p {
+    margin-top: 7px;
+  }
+}
+.card-intro {
+  height: 100px;
+  border-bottom: 1px solid #333;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: 1;
+  height: 48px;
+}
+.card-details p {
+  flex-grow: 2;
+}
+
+.card-details a {
+  text-decoration: none;
+  color: #000;
+  border-left: 1px solid #333;
+  padding-left: 40px;
+}
+
+/* The styles for Card C1 */
+.card-c1-title {
+  background-image: url(/Figma/Title\ container.png);
+  background-size: cover;
+  background-position: center;
+  height: 332px;
+  h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 200px;
+    padding-left: 40px;
+    margin-top: 20px;
+  }
+}
+
+/* The styles for Card C2 */
+.card-c2-title {
+  background-image: url(/Figma/Header\ section.png);
+  background-size: cover;
+  background-position: center;
+  height: 332px;
+  h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 200px;
+    padding-left: 40px;
+    margin-top: 20px;
+  }
+}
+
+/* The styles for Card C4 */
+.card-c4-title {
+  background-image: url(/Figma/Classes\ Header\ section.png);
+  background-size: cover;
+  background-position: center;
+  height: 332px;
+  h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 200px;
+    padding-left: 40px;
+    margin-top: 20px;
+  }
+}
+
+/* The styles for Card D5 */
+.card-d5-title {
+  background-image: url(/Figma/Row\ 3.png);
+  background-size: cover;
+  background-position: center;
+  height: 332px;
+  h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 200px;
+    padding-left: 40px;
+    margin-top: 20px;
+  }
+}
+
+/* Styles for the Promise content */
+.promise-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-bottom: 1px solid #333;
+  height: 640px;
+  .promise-title {
+    background-color: #000;
+    h2 {
+      color: #fff;
+      padding-left: 40px;
+      padding-top: 30px;
+      font-weight: 500;
+      font-size: 40px;
+    }
+  }
+
+  .right-container {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    .headline {
+      background-color: blue;
+      padding-left: 40px;
+      color: white;
+      font-size: 30px;
+      font-weight: 500;
+    }
+    .right-container-image {
+      background-image: url(/Figma/Image.png);
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
+
+/* The About page styles */
+.about-hero {
+  background-image: url(/Figma/About\ Header\ section.png);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 5%;
+  padding-left: 3%;
+  padding-top: 3%;
+  font-size: 65px;
+  color: #fff;
+  height: 650px;
+  h1 {
+    padding-bottom: 15%;
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+}
+
+.about-founders {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 497px;
+
+  .about-founders-title {
+    background-color: #000;
+    h2 {
+      color: #fff;
+      padding-left: 40px;
+      padding-top: 30px;
+      font-weight: 500;
+      font-size: 40px;
+    }
+  }
+}
+
+.about-founders-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-left,
+.card-right {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+}
+
+.about-founders-card-1 {
+  background-image: url(Figma/Founder\ image1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.about-founders-card-2 {
+  background-image: url(Figma/Founder\ image2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.about-founders-card-1-detail {
+  background-color: #d900ff;
+  padding-left: 30px;
+}
+
+.about-founders-card-2-detail {
+  background-color: #d0fbf9;
+  padding-left: 30px;
+}
+.about-f1name {
+  font-size: small;
+  margin-top: -15px;
+}
+.about-fname {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.instructors {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 1017px;
+
+  .instructors-title {
+    background-color: #000;
+    h2 {
+      color: #fff;
+      padding-left: 40px;
+      padding-top: 30px;
+      font-weight: 500;
+      font-size: 40px;
+    }
+  }
+}
+
+.instructors-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #7a7a7a;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 1px;
+
+    p {
+      font-weight: 200;
+      /* margin-left: -40px; */
+    }
+
+    .box-info-1 {
+      padding-top: 20px;
+    }
+
+    .box-info-2 {
+      padding-top: 70px;
+    }
+  }
+}
+
+.our-space {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 480px;
+}
+
+.our-space-image {
+  background-image: url(Figma/Space\ Image.png);
+  background-size: cover;
+}
+
+.our-space-info {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  .our-space-content {
+    color: #fff;
+  }
+}
