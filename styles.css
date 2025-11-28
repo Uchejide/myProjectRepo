@@ -77,6 +77,8 @@ button {
 }
 .frame {
   background-color: blue;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .promobar {
   display: flex;
