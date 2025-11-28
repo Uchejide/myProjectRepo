@@ -41,7 +41,7 @@ body {
 }
 
 .hero-section {
-  background-image: url(/Figma/Header\ section.png);
+  background-image: url(Figma/Header\ section.png);
   background-position: center;
   background-size: cover;
   padding-bottom: 5%;
@@ -109,7 +109,7 @@ button {
 }
 
 .vision {
-  background-image: url(/Figma/Title\ container2.png);
+  background-image: url(Figma/Title\ container2.png);
   background-size: cover;
   h2 {
     color: white;
@@ -139,7 +139,7 @@ button {
 }
 
 .classes {
-  background-image: url(/Figma/Title\ container.png);
+  background-image: url(Figma/Title\ container.png);
   background-size: cover;
   h2 {
     color: white;
@@ -177,7 +177,7 @@ button {
   height: auto;
   grid-template-rows: 3fr auto 3fr auto;
   .founders-card-1 {
-    background-image: url(/Figma/Founder\ image1.png);
+    background-image: url(Figma/Founder\ image1.png);
     background-size: cover;
   }
   .founders-card-1-detail {
@@ -185,7 +185,7 @@ button {
     padding-left: 30px;
   }
   .founders-card-2 {
-    background-image: url(/Figma/Founder\ image2.png);
+    background-image: url(Figma/Founder\ image2.png);
     background-size: cover;
   }
   .founders-card-2-detail {
@@ -274,7 +274,7 @@ button {
 
 /* for classes page */
 .hero {
-  background-image: url(/Figma/Classes\ Header\ section.png);
+  background-image: url(Figma/Classes\ Header\ section.png);
   background-position: center;
   background-size: cover;
   padding-bottom: 5%;
@@ -372,7 +372,7 @@ button {
 
 /* The styles for Card C1 */
 .card-c1-title {
-  background-image: url(/Figma/Title\ container.png);
+  background-image: url(Figma/Title\ container.png);
   background-size: cover;
   background-position: center;
   height: 332px;
@@ -387,7 +387,7 @@ button {
 
 /* The styles for Card C2 */
 .card-c2-title {
-  background-image: url(/Figma/Header\ section.png);
+  background-image: url(Figma/Header\ section.png);
   background-size: cover;
   background-position: center;
   height: 332px;
@@ -402,7 +402,7 @@ button {
 
 /* The styles for Card C4 */
 .card-c4-title {
-  background-image: url(/Figma/Classes\ Header\ section.png);
+  background-image: url(Figma/Classes\ Header\ section.png);
   background-size: cover;
   background-position: center;
   height: 332px;
@@ -417,7 +417,7 @@ button {
 
 /* The styles for Card D5 */
 .card-d5-title {
-  background-image: url(/Figma/Row\ 3.png);
+  background-image: url(Figma/Row\ 3.png);
   background-size: cover;
   background-position: center;
   height: 332px;
@@ -458,7 +458,7 @@ button {
       font-weight: 500;
     }
     .right-container-image {
-      background-image: url(/Figma/Image.png);
+      background-image: url(Figma/Image.png);
       background-position: center;
       background-size: cover;
     }
@@ -467,7 +467,7 @@ button {
 
 /* The About page styles */
 .about-hero {
-  background-image: url(/Figma/About\ Header\ section.png);
+  background-image: url(Figma/About\ Header\ section.png);
   background-position: center;
   background-size: cover;
   padding-bottom: 5%;
